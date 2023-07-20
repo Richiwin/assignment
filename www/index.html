@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no"> -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="app.min.css">
+    <!-- <meta name="color-scheme" content="light dark"> -->
+    <link rel="stylesheet" type="text/css" href="css/app.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
+
+    <title>Iwebuke Rachel CV</title>
+</head>
+
+
+<body> 
+   
+   
+    <!-- home page -->
+    <div class="app-page" data-page="home">
+        <div class="app-topbar">
+            <div class="app-title">Home page</div>
+        </div>
+        <div class="app-content">
+           
+            <img class="myimg" src="img/pics2.jpeg" alt="" width="150px" />
+          
+            <h1 className="heading center flex">Iwebuke Rachel Onyeamachi</h1>
+            <h1 className="heading center flex">FrontEnd Developer</h1>
+            <div id="deviceready" class="blink">
+                <p class="event listening">onyeamachirachel@gmail.com</p>
+                <h4>Phone Number: 09068414681</h4>
+                <div class="app-button" data-target="about">About</div>
+            </div>
+        </div>
+
+
+        <!-- about page -->
+        <div class="app-page" data-page="about">
+            <div class="app-topbar">
+                <div class="app-button left" data-back data-autotitle></div>
+                <div class="app-title">About</div>
+            </div>
+            <div class="app-content">
+                <ul>
+                    Hi!👋🏽 <br />
+                    <br />
+                    My name is Iwebuke Rachel Onyeamachi, and I'm a Front End developer based in Nigeria.
+                    <br />
+                    <br /> I see myself as a passionate developer who loves coding and bringing design imaginations to
+                    life. I focus more on building products
+                    using JavaScript, specifically ReactJs .
+                    <br />
+                    <br /> During my free time, i play music, sleep and research on the internet .
+                    <br />
+                </ul>
+
+                <div class="app-button" data-target="experience">work experience </div>
+            </div>
+        </div>
+        <!-- work experience page -->
+        <div class="app-page" data-page="experience">
+            <div class="app-topbar">
+                <div class="app-button left" data-back data-autotitle></div>
+                <div class="app-title">work experience</div>
+            </div>
+            <div class="app-content">
+                <fieldset>
+                    WORK EXPERIENCE
+                </fieldset>
+                <ul>
+                    LAPEEZ ROLLS, ASABA, DELTA STATE. 2021-Current <br>
+                    Position: Software developer (junior) <br>
+                    <br>
+                    Responsibilities: <br>
+                    <br>
+                    <li>
+                        Translated designs and wireframes into high-quality code and wrote application <br>interface
+                        code via javascript and React + Vue
+                    </li>
+                    <li>
+                        Participated in project meetings
+                    </li>
+                    <li>
+                        Participated in requirement gathering for projects or products.
+                    </li>
+                    <li>
+                        Designed a page for reporting sales transactions
+                    </li>
+                    <li>
+                        Designed a form to capture user data
+                    </li>
+                    <br>
+                    <br>
+                    STALWART MEDICAL CENTRE WARRI, DELTA STATE 2020 2021 <br>
+                    POSITION: ACCOUNTANT <br>
+                    <br>
+                    GOVERNMENT SECONDARY SCHOOL, ILORIN, KWARA STATE 2019-2020<br>
+                    (NYSC) <br>
+                    <br> 2019-202 POSITION: Accounting Teacher
+                    KOJO MOTORS LIMITED, BENIN CITY EDO STATE 2015-2016 <br>
+                    POSITION: Cashier <br>
+                    <br>
+                    FLOURISH GROUP OF SCHOOLS, BENIN CITY EDO STATE 2014 <br>
+                    POSITION: Class Teacher <br>
+                    <br>
+                    ORDAINED GENERATION GROUP OF SCHOOL, AGBOR, DELTA STATE 2013 <br>
+                    POSITION: Mathematics Teacher <br>
+
+                </ul>
+                <div class="app-button" data-target="skills">skills</div>
+            </div>
+           
+        </div>
+
+
+        <!-- skill -->
+        <div class="app-page" data-page="skills">
+            <div class="app-topbar">
+                <div class="app-button left" data-back data-autotitle></div>
+                <div class="app-title">Skills</div>
+            </div>
+            <div class="app-content">
+                <fieldset>
+                    SKILLS
+                </fieldset>
+                <ul>
+                    <li>
+                        LANGUAGES: HTML, CSS, JAVASCRIPT and VUE + REACT
+                    </li>
+                    <li>Proven Active Listener: pays full attention to what other people are saying, taking time to
+                        understand the points being made, asking questions when needed and not interrupting at
+                        inappropriate times. </li>
+                    <li>Communication: proficient in English and writing and proficient in oral and written formats</li>
+                    <li>Multitasking: juggles multiple tasks and responsibilities while remaining composed and meeting
+                        deadlines. </li>
+                    <li>Technical Skills: Proficiency in javascript, CSS, tailwind CSS, bootstrap, jQuery and react.
+                    </li>
+                    <li>Learning new technologies </li>
+                    <li>Creating ideals </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div data-role="header" data-add-back-btn="true" >
+     <h1> Iwebuke Rachels Cv App</h1>
+    </div> -->
+
+        <!-- <div class="app">
+        <div data-role="page1" id="page1" > 
+        <img src="img/pics2.jpeg" alt="" width="150px" />
+        <h1 className="heading center flex">Iwebuke Rachel Onyeamachi</h1>
+        <h1 className="heading center flex">FrontEnd Developer</h1>
+        <div id="deviceready" class="blink">
+            <p class="event listening">onyeamachirachel@gmail.com</p>
+        </div>
+        </div>
+        <div class="ui-grid-solo">
+            <div class="ui-grid-solo">
+                <a href="page2" ></a>
+          
+        <div className="äbout-right">
+            <ul> 
+            Hi!👋🏽 <br />
+            <br />
+            My name is Iwebuke Rachel Onyeamachi, and I'm a Front End developer based in Nigeria.
+            <br />
+            <br /> I see myself as a passionate developer who loves coding and bringing design imaginations to life. I focus more on building products
+            using JavaScript, specifically ReactJs .
+            <br />
+            <br /> During my free time, i play music, sleep and research on the internet .
+            <br />  
+        </ul>
+    </div>
+    <div class="ui-grid-solo">
+        <a href="page3"></a>
+     
+        <fieldset>
+            WORK EXPERIENCE
+        </fieldset>
+        <ul>
+            LAPEEZ ROLLS, ASABA, DELTA STATE.                    	 	2021-Current <br>
+Position: Software developer (junior) <br>
+<br>
+Responsibilities: <br>
+<br>
+<li>
+Translated designs and wireframes into high-quality code and wrote application <br>interface code via javascript and React + Vue
+</li>
+<li>
+Participated in project meetings 
+</li>
+<li>
+Participated in requirement gathering for projects or products. 
+</li>
+<li>
+Designed a page for reporting sales transactions  
+</li>
+<li>
+Designed a form to capture user data 
+</li>
+<br>
+<br>
+STALWART MEDICAL CENTRE WARRI, DELTA STATE 	 	                 2020  2021 <br>
+POSITION: ACCOUNTANT <br>
+<br>
+GOVERNMENT SECONDARY SCHOOL, ILORIN, KWARA STATE   2019-2020<br>
+(NYSC)   <br>
+<br>                                                                                                                         2019-202 POSITION: Accounting Teacher 
+KOJO MOTORS LIMITED, BENIN CITY EDO STATE                                           2015-2016 <br>
+POSITION: Cashier <br>
+<br>
+FLOURISH GROUP OF SCHOOLS, BENIN CITY EDO STATE                          2014 <br>
+POSITION: Class Teacher <br>
+<br>
+ORDAINED GENERATION GROUP OF SCHOOL, AGBOR, DELTA  STATE    2013 <br>
+POSITION: Mathematics Teacher <br>
+
+        </ul>
+    </div>
+    <div class="ui-grid-solo">
+        <a href="page4" data-role="button"></a>
+    
+        <fieldset>
+            SKILLS
+        </fieldset>
+        <ul>
+            <li>
+                LANGUAGES: HTML, CSS, JAVASCRIPT and VUE + REACT 
+            </li>
+            <li>Proven Active Listener: pays full attention to what other people are saying,    taking time to understand the points being made, asking questions when needed and not interrupting at inappropriate times. </li>
+            <li>Communication: proficient in English and writing and proficient in oral and written formats</li>
+            <li>Multitasking: juggles multiple tasks and responsibilities while remaining composed and meeting deadlines. </li>
+            <li>Technical Skills: Proficiency in javascript, CSS, tailwind CSS, bootstrap, jQuery and react. </li>
+            <li>Learning new technologies </li>
+            <li>Creating ideals </li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div> -->
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/app.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
